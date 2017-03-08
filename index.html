@@ -2,22 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Testing sum javascriptsss</title>
+    <title>Testing JavaScript</title>
 </head>
 <body>
     <p id="text"></p>
-    <script>
-        var text = document.getElementById("text");
-
-        text.innerHTML = "text";
-
-        text.addEventListener("mouseover", function() {
-            text.style.fontFamily = "Roboto";
-        });
-
-        text.addEventListener("mouseout", function() {
-            text.style.fontFamily = "serif";
-        })
-    </script>
+    <label>Name: </label>
+    <input type="text" id="fieldName"/>
+    <input type="button" value="Submit" id="submitButton" onclick="checkName()" />
+    <script src=javascript.js></script>
 </body>
 </html>
